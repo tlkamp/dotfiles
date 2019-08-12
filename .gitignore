@@ -1,4 +1,5 @@
 ngrok/
+*secret*
 .cfg/
 Applications/
 Desktop/
