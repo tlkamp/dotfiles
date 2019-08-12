@@ -1,3 +1,5 @@
+set -o vi
+
 # Aliases
 alias ll="ls -l"
 alias ls="ls -lhpG"
