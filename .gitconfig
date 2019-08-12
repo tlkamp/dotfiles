@@ -1,0 +1,20 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Traci Kamp
+	email = traci.kamp@gmail.com
+[merge]
+	conflictstyle = diff3
+[http]
+  sslVerify = true
+[core]
+	editor = vim
+	autocrlf = input
+[alias]
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	logg = log --oneline --decorate --graph --all
+  drymerge = merge --no-commit --no-ff
+  lg = log --oneline --decorate --graph
+  cfge = config --global -e
+[color]
+  ui = true
